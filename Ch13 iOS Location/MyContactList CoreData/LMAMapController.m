@@ -62,7 +62,7 @@
             LMAMapPoint *mp = [[LMAMapPoint alloc]
                                initWithCoordinate:coordinate
                                title:contact.contactName
-                               subtitle:contact.streetAddress];
+                               subtitle:contact.city];
             [_mvMap addAnnotation:mp];
         }];
     }
