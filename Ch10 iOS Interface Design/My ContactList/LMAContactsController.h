@@ -24,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtEmail;
 @property (weak, nonatomic) IBOutlet UILabel *lblBirthdate;
 
+
 @property (weak, nonatomic) IBOutlet UIButton *btnChange;
 
 @end
