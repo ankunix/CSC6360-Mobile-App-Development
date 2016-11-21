@@ -1,4 +1,4 @@
-//
+    //
 //  LMAViewController.m
 //  Hello World!
 //
@@ -29,6 +29,11 @@
 - (IBAction)showOutput:(id)sender {
     NSString *name = [_txtName text];
     NSString *output = [NSString stringWithFormat:@"Hello %@!", name];
+    _lblOutput.text = output;
+}
+
+- (IBAction)showHello:(id)sender {
+    NSString *output = [NSString stringWithFormat:@"Hello World!"];
     _lblOutput.text = output;
 }
 
